@@ -11,13 +11,14 @@
 }
 
 .footer-info {
-  text-align: center;
+  text-align: left;
 }
 
 .footer-logo {
-  display: inline-block;
+  display: block;
 
-  margin-bottom: 16px;
+  width: fit-content;
+  margin: 0 auto 16px;
 
   text-decoration: none;
 
@@ -184,15 +185,14 @@
 
 @media screen and (min-width: 768px) {
   .footer-container {
+    max-width: 584px;
+    margin: 0 auto;
+
     flex-direction: row;
     flex-wrap: wrap;
 
-    align-items: baseline;
-
     row-gap: 72px;
     column-gap: 24px;
-
-    padding-left: 108px;
   }
 
   .footer-info {
@@ -237,10 +237,7 @@
 
   .footer-container {
     flex-wrap: nowrap;
-
     gap: 0;
-
-    padding-left: 15px;
   }
 
   .footer-info {

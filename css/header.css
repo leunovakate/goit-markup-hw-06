@@ -33,16 +33,22 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address-link {
   color: #434455;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link:hover,
@@ -71,12 +77,6 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-}
-
-.header-nav-link,
-.header-address-link {
-  padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-active-link {
@@ -141,28 +141,10 @@
     gap: 12px;
   }
 
-  .header-address-link {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-
-    color: #434455;
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
   .header-nav-link {
     position: relative;
 
     display: block;
-
-    padding: 24px 0;
-
-    font-weight: 500;
-
-    color: #2e2f42;
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-nav-link:hover,
