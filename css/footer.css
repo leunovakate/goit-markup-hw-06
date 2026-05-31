@@ -213,6 +213,10 @@
     text-align: left;
   }
 
+  .footer-logo {
+    margin: 0 0 16px;
+  }
+
   .subscribe-form {
     flex-direction: row;
     align-items: center;
@@ -236,6 +240,7 @@
   }
 
   .footer-container {
+    max-width: 1158px;
     flex-wrap: nowrap;
     gap: 0;
   }
