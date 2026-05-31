@@ -116,6 +116,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .main-logo {
+    margin-right: 120px;
+  }
+
   .mobile-menu-btn {
     display: none;
   }
@@ -123,6 +127,7 @@
   .header-nav {
     display: flex;
     gap: 40px;
+    margin-right: auto;
   }
 
   .header-address {
@@ -189,6 +194,10 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .main-logo {
+    margin-right: 76px;
+  }
+
   .address-list {
     flex-direction: row;
     gap: 40px;
